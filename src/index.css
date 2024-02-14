@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dodatkowe niestandardowe style */
+.item {
+  flex: 1 1 calc(25% - 1rem); /* Równy podział na 4 elementy z odstępami */
+}
+
+/* Media queries */
+@media screen and (max-width: 800px) {
+  .item {
+    flex-basis: calc(50% - 1rem); /* Zmniejsz na 2 kolumny */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .item {
+    flex-basis: 100%; /* Zmień na jeden element na wiersz */
+  }
+}
