@@ -12,7 +12,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, imgRef }) => {
             <img
                 alt=""
                 src={imgRef}
-                className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 saturate-50"
+                className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 saturate-50 rounded-md"
             />
             <div className="relative p-4 sm:p-6 lg:p-8">
                 <p className="text-sm font-medium uppercase tracking-widest text-estradex-blue rajdhani-semibold">Estradex</p>

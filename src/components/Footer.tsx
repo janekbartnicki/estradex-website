@@ -1,6 +1,6 @@
 const Footer: React.FC = () => {
     return (
-        <footer className="footer footer-center p-10 bg-estradex-blue text-primary-content mt-10">
+        <footer className="footer footer-center p-10 bg-estradex-blue text-primary-content">
             <aside>
                 <img src="/estradex-logo.png" alt="Estradex" className="h-10 invert grayscale mb-5"/>
                 <p className="font-bold rajdhani-bold">

@@ -31,3 +31,5 @@ const Home: React.FC = () => {
 }
 
 export default Home;
+
+//TODO: Eventually remove imgRef tag from both tag and component
