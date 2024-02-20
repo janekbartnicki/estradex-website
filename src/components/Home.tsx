@@ -11,18 +11,22 @@ const Home: React.FC = () => {
                     <ServiceCard 
                         title='Transport'
                         imgRef='https://40ton.net/wp-content/uploads/2018/08/iveco_daily_72c18_5.jpg'
+                        href='#transport'
                     />
                     <ServiceCard 
                         title='Spedycja'
                         imgRef='https://dla-przewoznika.pl/wp-content/uploads/2021/07/przewoznik-spedycja-roznice-1250x700.jpg'
+                        href='#spedycja'
                     />
                     <ServiceCard 
                         title='Dystrybucja'
                         imgRef='https://crn.pl/wp-content/uploads/2021/09/otwarcie-debata-channel-award-dystrybucja-it.jpg'
+                        href='#dystrybucja'
                     />
                     <ServiceCard 
                         title='Magazynowanie'
                         imgRef='https://www.idosell.com/panel/file-gate.php?id=91175&lang=pl&ext=.png'
+                        href='#magazynowanie'
                     />
                 </div>
             </div>
@@ -31,5 +35,3 @@ const Home: React.FC = () => {
 }
 
 export default Home;
-
-//TODO: Eventually remove imgRef tag from both tag and component

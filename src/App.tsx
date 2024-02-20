@@ -1,3 +1,4 @@
+import BackAnchorBtn from './components/BackAnchorBtn';
 import EmailForm from './components/EmailForm';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -13,11 +14,12 @@ const App: React.FC = () => {
             <div className='mt-10'>
                 <Home/>
             </div>
-            <div className=''>
+            <div className='mx-10 lg:mx-28'>
                 <Sections/>
             </div>
             <EmailForm/>
             <Footer/>
+            <BackAnchorBtn/>
         </>
     )
 }

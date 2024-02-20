@@ -3,14 +3,22 @@ import { IoArrowForward } from "react-icons/io5";
 interface ServiceCardProps {
     title: string;
     imgRef: string;
+    href: string;
 }
 
-const ServiceCard: React.FC<ServiceCardProps> = ({ title, imgRef }) => {
+const ServiceCard: React.FC<ServiceCardProps> = ({ title, imgRef, href }) => {
+
+    const handleClickScroll = (): void => {
+        const element = document.getElementById(href);
+
+        element?.scrollIntoView({behavior: "smooth"});
+    }
+
     return (
         <div className="w-96 item">
-            <a href="#" className="group relative block bg-black rounded-md shadow-lg">
+            <a href={href} onClick={handleClickScroll} className="group relative block bg-black rounded-md shadow-lg">
             <img
-                alt=""
+                alt={title}
                 src={imgRef}
                 className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 saturate-50 rounded-md"
             />
