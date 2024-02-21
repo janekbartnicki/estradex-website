@@ -2,7 +2,7 @@ const EmailForm: React.FC = () => {
     return (
         <section className="bg-gray-100" id="wiadomosc">
             <div className="mx-auto max-w-screen-xl px-4 py-20 sm:px-6 lg:px-8">
-                <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+                <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12 rajdhani-regular">
                     <div className="rajdhani-bold uppercase text-center text-2xl mb-10">Napisz do nas</div>
                     <form action="#" className="space-y-4">
                     <div>
@@ -50,7 +50,7 @@ const EmailForm: React.FC = () => {
                     <div className="mt-4 text-right">
                         <button
                         type="submit"
-                        className="inline-block w-full rounded-lg bg-estradex-blue px-5 py-3 font-medium text-white sm:w-auto"
+                        className="inline-block w-full rounded-lg bg-estradex-blue px-5 py-3 rajdhani-semibold text-white sm:w-auto hover:bg-gray-100 hover:text-estradex-blue btn"
                         >
                             Wyślij wiadomość
                         </button>

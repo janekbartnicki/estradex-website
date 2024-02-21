@@ -5,6 +5,9 @@ import { HiMiniArrowsPointingOut } from "react-icons/hi2";
 import SectionView from "./SectionView";
 
 const Sections: React.FC = () => {
+
+    const iconsClassName = 'lg:md:w-72 ld:md:h-72 w-60 h-60 text-estradex-blue';
+
     return (
         <>
             <SectionView 
@@ -14,7 +17,7 @@ const Sections: React.FC = () => {
                     "Witajcie w świecie efektywnego transportu! Estradex oferuje szybkie i bezpieczne usługi transportowe, które doskonale spełnią Wasze oczekiwania. Nasz doświadczony zespół profesjonalistów zadba o płynność dostaw, gwarantując terminowość i bezpieczeństwo przewożonych towarów. Wybierając Estradex, inwestujecie w partnera, który dostarczy Wasze produkty dokładnie tam, gdzie są potrzebne, z pełnym zachowaniem standardów bezpieczeństwa"
                 }
             >
-                <FaTruck className="w-72 h-72 text-estradex-blue"/>
+                <FaTruck className={iconsClassName}/>
             </SectionView>
             <SectionView 
                 href="#spedycja"
@@ -24,7 +27,7 @@ const Sections: React.FC = () => {
                 }
                 rtl
             >
-                <BsBoxes className="w-72 h-72 text-estradex-blue"/>
+                <BsBoxes className={iconsClassName}/>
             </SectionView>
             <SectionView 
                 href="#dystrybucja"
@@ -33,7 +36,7 @@ const Sections: React.FC = () => {
                     "Estradex oferuje kompleksowe rozwiązania dystrybucyjne, dostosowane do unikalnych wymagań Waszego biznesu. Nasz zespół ekspertów dba o to, aby Wasze produkty trafiały do klientów zgodnie z planem, z minimalnymi opóźnieniami. Wspólnie z nami przyspieszcie rozwój Waszej firmy, korzystając z elastycznych i profesjonalnych usług dystrybucyjnych"
                 }
             >
-                <HiMiniArrowsPointingOut className="w-72 h-72 text-estradex-blue"/>
+                <HiMiniArrowsPointingOut className={iconsClassName}/>
             </SectionView>
             <SectionView 
                 href="#magazynowanie"
@@ -43,7 +46,7 @@ const Sections: React.FC = () => {
                 }
                 rtl
             >
-                <FaWarehouse className="w-72 h-72 text-estradex-blue"/>
+                <FaWarehouse className={iconsClassName}/>
             </SectionView>
         </>
     )
