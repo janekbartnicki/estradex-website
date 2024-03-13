@@ -33,7 +33,7 @@ const Sections: React.FC = () => {
                 href="#dystrybucja"
                 title="Dystrybucja"
                 desc={
-                    "Estradex oferuje kompleksowe rozwiązania dystrybucyjne, dostosowane do unikalnych wymagań Waszego biznesu. Nasz zespół ekspertów dba o to, aby Wasze produkty trafiały do klientów zgodnie z planem, z minimalnymi opóźnieniami. Wspólnie z nami przyspieszcie rozwój Waszej firmy, korzystając z elastycznych i profesjonalnych usług dystrybucyjnych"
+                    "Estradex oferuje kompleksowe rozwiązania dystrybucyjne, dostosowane do unikalnych wymagań Waszego biznesu. Nasz zespół ekspertów dba o to, aby Wasze produkty trafiały do klientów zgodnie z planem. Wspólnie z nami przyspieszcie rozwój Waszej firmy, korzystając z elastycznych i profesjonalnych usług dystrybucyjnych"
                 }
             >
                 <HiMiniArrowsPointingOut className={iconsClassName}/>
@@ -42,7 +42,7 @@ const Sections: React.FC = () => {
                 href="#magazynowanie"
                 title="Magazynowanie"
                 desc={
-                    "Zaufajcie Estradex, aby zadbać o profesjonalne magazynowanie Waszych towarów. Nasze nowoczesne magazyny gwarantują bezpieczeństwo i prawidłowe przechowywanie produktów, zgodnie z najwyższymi standardami. Dzięki indywidualnemu podejściu do każdego klienta, Estradex staje się nie tylko dostawcą, ale także partnerem, który zapewni Wam spokój i pewność, że Wasze produkty są w najlepszych rękach"
+                    "Nasze nowoczesne magazyny gwarantują bezpieczeństwo i prawidłowe przechowywanie produktów, zgodnie z najwyższymi standardami. Dzięki indywidualnemu podejściu do każdego klienta, Estradex staje się nie tylko dostawcą, ale także partnerem, który zapewni Wam spokój i pewność, że Wasze produkty są w najlepszych rękach"
                 }
                 rtl
             >
