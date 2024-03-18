@@ -13,10 +13,10 @@ const SectionView: React.FC<SectionViewProps> = ({ href, children, rtl, title, d
         <>
             <div className="flex flex-wrap w-full lg:md:mb-20 mb-5 pt-28 text-center" dir={rtl ? 'rtl' : 'ltr'} id={href}>
                 <div className="grid place-items-center w-full sm:md:w-1/2">
-                    <p className="lg:md:text-6xl text-5xl text-estradex-blue rajdhani-bold">{title}</p>
+                    <p className="lg:md:text-6xl text-5xl text-estradex-blue rajdhani-bold mb-5">{title}</p>
                     <p className="flex justify-center items-center flex-col rajdhani-regular text-xl text-pretty">
                         {desc}
-                        <a href="#wiadomosc" className="mt-5">
+                        <a href="#wiadomosc" className="mt-8">
                             <button className="btn w-60 rajdhani-semibold bg-estradex-blue text-white hover:text-black">
                                 Napisz do nas
                             </button>
